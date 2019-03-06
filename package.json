@@ -20,7 +20,7 @@
     "husky": "0.14.3",
     "jest": "^22.4.3",
     "jest-extended": "^0.6.0",
-    "lerna": "^2.11.0",
+    "lerna": "^3.13.1",
     "memory-fs": "^0.4.1",
     "merge-options": "^1.0.1",
     "mocha": "5.0.5",
@@ -35,5 +35,6 @@
     "publish:dry-run": "yarn run publish --skip-git --skip-npm",
     "release": "lerna publish --conventional-commits --npm-client=npm",
     "test": "jest"
-  }
+  },
+  "name": "svg-mixer"
 }
